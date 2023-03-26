@@ -1,0 +1,14 @@
+.about {
+  background-color: #1abc9c;
+  color: #fff;
+  padding-top: 9rem;
+}
+.about h2 {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+.about p {
+  font-size: 1.25rem;
+  font-weight: 400;
+}

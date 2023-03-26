@@ -1,0 +1,72 @@
+header {
+  padding-top: 11rem;
+  background-color: #1abc9c;
+}
+header img {
+  width: 20%;
+}
+header h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  text-transform: uppercase;
+}
+
+
+/* header h1::before {
+  content: "";
+  background-color: #fff;
+  width: 7rem;
+  height: .25rem;
+  display: inline-block;
+  border-radius: 1rem;
+  position: absolute;
+  top: 37.8rem;
+  left: 38rem;
+}
+header h1::after {
+  content: "";
+  background-color: #fff;
+  width: 7rem;
+  height: .25rem;
+  display: inline-block;
+  border-radius: 1rem;
+  position: absolute;
+  top: 37.8rem;
+  right: 38rem;
+} */
+
+
+/* header .line-icon {
+  font-size: 2rem;
+  position: absolute;
+  bottom: 0rem;
+  left: 39.5rem;
+}
+header .line1 {
+  background-color: #fff;
+  width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 1.2rem;
+  left: 31.5rem;
+}
+header .line2 {
+  background-color: #fff;
+  width: 7rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+  position: absolute;
+  bottom: 1.2rem;
+  right: 31.5rem;
+} */
+header p {
+  font-size: 1.5rem;
+}
+
+
+header .line-icon {
+  font-size: 2rem;
+}
+
+

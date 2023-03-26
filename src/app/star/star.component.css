@@ -1,0 +1,133 @@
+/* .icon {
+  font-size: 2rem;
+  position: relative;
+}
+.icon::before {
+  content: "";
+  background-color: #fff;
+  width: 7rem;
+  height: .25rem;
+  display: inline-block;
+  border-radius: 1rem;
+  position: absolute;
+  left: 31rem;
+  top: 1.5rem;
+}
+.icon::after {
+  content: "";
+  background-color: #fff;
+  width: 7rem;
+  height: .25rem;
+  display: inline-block;
+  border-radius: 1rem;
+  position: absolute;
+  right: 31rem;
+  top: 1.5rem;
+} */
+
+/* @media screen and (max-width:999px) {
+  .icon::before {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    left: 24rem;
+    top: 1.5rem;
+  }
+  .icon::after {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    right: 24rem;
+    top: 1.5rem;
+  }
+}
+@media screen and (max-width:772px) {
+  .icon::before {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    left: 19rem;
+    top: 1.5rem;
+  }
+  .icon::after {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    right: 19rem;
+    top: 1.5rem;
+  }
+}
+@media screen and (max-width:550px) {
+  .icon::before {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    left: 17rem;
+    top: 1.5rem;
+  }
+  .icon::after {
+    content: "";
+    background-color: #fff;
+    width: 7rem;
+    height: .25rem;
+    display: inline-block;
+    border-radius: 1rem;
+    position: absolute;
+    right: 17rem;
+    top: 1.5rem;
+  }
+} */
+
+
+.main {
+  width: 30%;
+  margin: auto;
+}
+
+.icon {
+  font-size: 2rem;
+  position: relative;
+}
+.line {
+  background-color: #fff;
+  width: 7rem;
+  height: .25rem;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width:992px) {
+  .main {
+    width: 50%;
+  }
+}
+@media screen and (max-width:772px) {
+  .main {
+    width: 55%;
+  }
+}
+@media screen and (max-width:555px) {
+  .main {
+    width: 80%;
+  }
+}
+

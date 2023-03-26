@@ -1,0 +1,67 @@
+<section class="portfolio pb-5 mb-5">
+  <div class="container">
+
+    <h2 class="text-center text-uppercase py-3">portfolio </h2>
+    <div class="main d-flex justify-content-evenly align-items-center mb-4">
+      <div class="line"></div>
+    <div class="icon">
+      <i class="fa-solid fa-star"></i>
+    </div>
+    <div class="line"></div>
+    </div>
+    <div class="row gy-4">
+
+      <div class="col-md-6 col-lg-4 px-4 " *ngFor="let x of images">
+        <div class="item">
+
+            <div class="item-content position-relative text-center w-100 "  >
+              <a href="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" (click)="displayData(x)">
+                <div class="layer d-flex justify-content-center align-items-center position-absolute">
+                  <i class="fa-solid fa-plus"></i>
+                </div>
+              </a>
+              <img class="w-100" [src]="x.imgUrl" alt="">
+            </div>
+        </div>
+
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header border-bottom-0 text-center d-block">
+                <button type="button" class="btn-close d-flex mb-3 fs-2 btnClose" data-bs-dismiss="modal"></button>
+                <div class="modal-title">
+                  <h2 class="text-uppercase"> {{showDetails.modalTitle}} </h2>
+                  <div class="main d-flex justify-content-evenly align-items-center mb-4">
+                    <div class="line"></div>
+                  <div class="icon">
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="line"></div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-body">
+                <div class="container">
+                  <div class="modal-body-content">
+                    <img [src]="showDetails.imgUrl" alt="" class=" mb-3">
+                    <p class="text-center my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer border-top-0 justify-content-center">
+                <button type="button" class="btn btnSecondary rounded-3 mb-5" data-bs-dismiss="modal">
+                  <i class="fa-sharp fa-solid fa-xmark pe-1"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
